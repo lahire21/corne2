@@ -28,7 +28,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "ALT_ALTGR";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT>, <&kp C_AL_GRAPHICS_EDITOR>;
+            bindings = <&kp RIGHT_ALT>, <&kp LEFT_ALT>;
         };
     };
 
