@@ -21,7 +21,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "META_SCREEN";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_META>, <&kp PRINTSCREEN>;
+            bindings = <&kp LGUI>, <&kp PRINTSCREEN>;
         };
 
         alt_altgr: alt_altgr {
