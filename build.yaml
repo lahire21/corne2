@@ -19,10 +19,11 @@
 #nrf52840_m2
 ---
 include:
-  - board: nice_nano@2.0.0//zmk
+  - board: nice_nano//zmk@2.0.0
     shield: corne_left #nice_view_adapter nice_view
     snippet: studio-rpc-usb-uart    
-  - board: nice_nano@2.0.0//zmk
+  - board: nice_nano//zmk@2.0.0
     shield: corne_right #nice_view_adapter nice_view
-  - board: nice_nano@2.0.0//zmk
+    snippet: studio-rpc-usb-uart
+  - board: nice_nano//zmk@2.0.0
     shield: settings_reset    
